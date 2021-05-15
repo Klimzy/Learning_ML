@@ -178,7 +178,7 @@ for _ in range(0, Q):
 
     if MUTATION_PROBABILITY > (random.randint(0, 100) / 100):
 
-        for i in range(0, 10):
+        for i in range(0, 20):
             num_of_mutating_individual = random.randint(0, MAX_ENT - 1)  # номер мутирующей хромосомы в поколении
 
             entity_for_min[num_of_mutating_individual] = mutation(entity_for_min[num_of_mutating_individual])
